@@ -16,4 +16,5 @@ def stockbuyandsell(prices):
 
     return maxprofit
 
+
 print(stockbuyandsell(prices))
