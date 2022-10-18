@@ -1,3 +1,4 @@
+
 def findmin(arr):
     res = arr[0]
     l, r = 0, len(arr) - 1
@@ -14,5 +15,5 @@ def findmin(arr):
     return res
 
 
-arr = [4, 5, 7, 6, 1, 2]
+arr = [1, 5, 7, 6, 5, 2]
 print(findmin(arr))
