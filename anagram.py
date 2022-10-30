@@ -14,4 +14,6 @@ def validAnagram(istring, ostring):
     return True
 
 
+
+
 print(validAnagram("data", "data"))
