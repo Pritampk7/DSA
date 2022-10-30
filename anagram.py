@@ -1,4 +1,5 @@
 def validAnagram(istring, ostring):
+
     inputHash, outputHash = {}, {}
 
     if len(istring) != len(ostring):
@@ -7,11 +8,10 @@ def validAnagram(istring, ostring):
         inputHash[istring[i]] = 1 + inputHash.get(istring[i], 0)
         outputHash[ostring[i]] = 1 + outputHash.get(ostring[i], 0)
 
-    print(inputHash, outputHash)
     for count in inputHash:
         if inputHash[count] != outputHash.get(count, 0):
             return False
     return True
 
 
-print(validAnagram("data", "dtda"))
+print(validAnagram("data", "data"))
