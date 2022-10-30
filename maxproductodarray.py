@@ -14,6 +14,7 @@ def findmax(*args):
                 maxsum = args[i]
         return maxsum
 
+
 def maxproduct(arr):
     res = findmax(arr)
     curmin, curmax = 1, 1
@@ -23,4 +24,6 @@ def maxproduct(arr):
         curmin = findmax(curmin * item, tmp, item)
         res = findmax(curmax, res, curmin)
     return res
+
+
 print(maxproduct([2, 1, -2, 3]))
