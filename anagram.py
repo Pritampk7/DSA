@@ -1,6 +1,6 @@
 def validAnagram(istring, ostring):
     inputHash, outputHash = {}, {}
-    count = 0
+
     if len(istring) != len(ostring):
         return False
     for i in range(len(istring)):
