@@ -12,4 +12,8 @@ def validAnagram(istring, ostring):
         if inputHash[count] != outputHash.get(count, 0):
             return False
     return True
+
+
+
+
 print(validAnagram("data", "data"))
