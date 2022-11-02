@@ -13,7 +13,4 @@ def validAnagram(istring, ostring):
             return False
     return True
 
-
-
-
 print(validAnagram("data", "data"))
