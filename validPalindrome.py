@@ -25,3 +25,4 @@ class ValidPalindrome:
 
 obj = ValidPalindrome()
 print(obj.isPalindrome("A man, a plan, a canal: Panama"))
+
